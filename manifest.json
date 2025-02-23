@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "zensware.com",
+    "version": "1.0",
+    "description": "A discord webhook spammer built into your browser",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/zensware16.png",
+        "48": "images/zensware48.png",
+        "128": "images/zensware128.png"
+      }
+    },
+    "permissions": []
+  }
+  

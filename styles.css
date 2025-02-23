@@ -1,0 +1,147 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 340px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .info-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .info-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00c8ff;
+  }
+  
+  .info-box p {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #181818;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid #00c8ff;
+    display: inline-block;
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .service {
+    background-color: #232323;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+    background-color: #00c8ff;
+    color: #121212;
+  }
+  
+  .service h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .service p {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+  }
+  
+  input, textarea, select, button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input, textarea, select {
+    background-color: #2e2e2e;
+    color: #ffffff;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #aaaaaa;
+  }
+  
+  button {
+    background: linear-gradient(45deg, #00c8ff, #00ff85);
+    color: #121212;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #2e2e2e;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li span {
+    word-break: break-all;
+  }
+  
+  li button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  
+  li button:hover {
+    opacity: 0.8;
+  }
+  
